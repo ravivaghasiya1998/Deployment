@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>10g-gaming-music-tech-button</title>
+    <link 
+    rel="stylesheet"
+    href="styles/10g-gaming-music-tech-button.css">
+  </head>
+  <body>
+    <button class="js-gaming-button toggle-button" onclick="
+      const buttonGaming = document.querySelector('.js-gaming-button');
+      handleToggle(buttonGaming)
+    ">Gaming</button>
+
+    <button class="js-music-button toggle-button" onclick="
+      const buttonMusic = document.querySelector('.js-music-button');
+      handleToggle(buttonMusic);
+    ">Music</button>
+
+    <button class="js-tech-button toggle-button" onclick="
+      const buttonTech = document.querySelector('.js-tech-button');
+      handleToggle(buttonTech);
+    ">Tech</button>
+
+  <script src="scripts/10g-gaming-music-tech-button.js"> </script>
+  </body>
+</html>
